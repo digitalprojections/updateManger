@@ -5,3 +5,16 @@
  */
 
 console.log("updater.js here");
+
+$("#auctions input").click(function(){
+switch(this.getAttribute("value"))
+{
+    case 1:
+break;
+    case 2:
+break;
+    case 3:
+break;
+
+}
+});

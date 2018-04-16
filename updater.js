@@ -5,16 +5,15 @@
  */
 
 console.log("updater.js here");
-
-$("#auctions input").click(function(){
-switch(this.getAttribute("value"))
-{
-    case 1:
-break;
-    case 2:
-break;
-    case 3:
-break;
-
+$("#auctions input").click(function(e){
+$("section.viewtypes").each(
+function(i){
+$(this).show();
+if (this.id!=e.target.getAttribute("id-data")){
+$(this).hide();
+//console.log(this.id, e.target.getAttribute("id-data"));
 }
+}
+);
+
 });

@@ -5,6 +5,8 @@
  */
 
 console.log("updater.js here");
+$("section.viewtypes").hide();
+$("section.views").hide();
 $("#auctions input").click(function(e){
 $("section.viewtypes").each(
 function(i){
@@ -15,5 +17,5 @@ $(this).hide();
 }
 }
 );
-
+$("section.views").show();
 });

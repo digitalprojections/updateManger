@@ -5,17 +5,3 @@
  */
 
 console.log("updater.js here");
-$("section.viewtypes").hide();
-$("section.views").hide();
-$("#auctions input").click(function(e){
-$("section.viewtypes").each(
-function(i){
-$(this).show();
-if (this.id!=e.target.getAttribute("id-data")){
-$(this).hide();
-//console.log(this.id, e.target.getAttribute("id-data"));
-}
-}
-);
-$("section.views").show();
-});

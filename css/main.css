@@ -1,0 +1,80 @@
+h1 {
+    font-family: monospace;
+    color: aliceblue;
+}
+
+nav li {
+    float: left;
+    padding-right: 10px;
+    list-style: none;
+    color: #eddaff;
+}
+
+li a {
+    text-decoration: none;
+    color: darkcyan;
+}
+li a:hover {
+    text-decoration: none;
+    color: yellow;
+}
+
+body {
+    background: black;
+    color: blanchedalmond;
+}
+
+article {
+    margin-left: 10%;
+    margin-right: 10%;
+    min-width: 50%;    
+    margin-top:50px;
+    float:left;
+}
+aside {
+    float: left;
+}
+
+nav {
+    position: fixed;
+}
+
+form#in_form {    
+    margin-left: 10%;
+    margin-right:  10%;
+    width: max-content;
+}
+
+input[type="text"] {
+    margin: 5px;
+}
+section#auctions {
+    display: inline-grid;
+    width: 150px;}
+
+section.viewtypes {
+    width: 250px;
+    display: inline-grid;
+}
+label {
+    float: right;
+    margin-left: 25%;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    float: right;
+}
+
+section {
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+p {
+    color: cornflowerblue;
+    margin: 15px -5px;
+    background: indigo;
+    padding: 5px 15px 10px;
+}
